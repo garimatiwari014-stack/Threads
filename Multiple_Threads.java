@@ -15,7 +15,7 @@
 }
 
 
-public class main{
+public class Multiple_Threads{
     public static void main(String[] args) {
         multiplethreads t1 = new multiplethreads();
         t1.start();
