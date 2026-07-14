@@ -14,7 +14,7 @@ public class joinmethod_2 extends Thread {
     public static void main(String [] args){
         mainthread = Thread.currentThread();
        
-        joinmethod_2 jd = new joinmethod_2();
+        joinmethod_2  jd = new joinmethod_2();
         jd.start();
         try {
             for(int i = 0 ; i <= 5; i++){
